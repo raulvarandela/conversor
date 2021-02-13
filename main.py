@@ -21,16 +21,16 @@ while True:
 
     if (opcion == "1"):
         valor = int(input("Introduce una cantidad a convertir: "))
-        print(f"La conversión de {valor} Kg a Libras es de {valor * 2, 205}")
+        print(f"La conversión de {valor} Kg a Libras es de {valor * 2.205}")
     elif (opcion == "2"):
         valor = int(input("Introduce una cantidad a convertir: "))
-        print(f"La conversión de {valor} Libras a Kg es de {valor / 2, 205}")
+        print(f"La conversión de {valor} Libras a Kg es de {valor / 2.205}")
     elif (opcion == "3"):
         valor = int(input("Introduce una cantidad a convertir: "))
-        print(f"La conversión de {valor} cm a pulgadas es de {valor / 2, 54}")
+        print(f"La conversión de {valor} cm a pulgadas es de {valor / 2.54}")
     elif (opcion == "4"):
         valor = int(input("Introduce una cantidad a convertir: "))
-        print(f"La conversión de {valor} pulgadas a cm es de {valor * 2, 54}")
+        print(f"La conversión de {valor} pulgadas a cm es de {valor * 2.54}")
     elif (opcion == "5"):
         break
     else:
